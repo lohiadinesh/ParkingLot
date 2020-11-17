@@ -1,0 +1,56 @@
+
+Execution Example:
+
+
+===================================================================
+==================      Dkatalis PARKING LOT     ==================
+===================================================================
+--------------Please Enter one of the below commands. {variable} to be replaced -----------------------
+A) For creating parking lot of size n               ---> create_parking_lot {capacity}
+B) To park a car                                    ---> park <<car_number>> {car_clour}
+C) Remove(Unpark) car from parking                  ---> leave {slot_number}
+D) Print status of parking slot                     ---> status
+G) Get slot number for the given car number         ---> slot_number_for_registration_number {car_number}
+
+Please Enter 'exit' to end Execution. Please enter to continue..
+Input:
+create_parking_lot 10
+Created parking lot with 10 slots
+
+Please enter to continue..
+
+create_parking_lot 20
+Sorry parking already created.
+status
+Slot No.	Registration No.	Color
+Sorry, parking lot is empty.
+
+Please enter to continue..
+
+park MH-14-DK-0420 Red
+Allocated slot number: 1
+
+Please enter to continue..
+
+status
+Slot No.	Registration No.	Color
+1		MH-14-DK-0420		Red
+
+Please enter to continue..
+
+slot_number_for_registration_number MH-14-DK-0420
+1
+
+Please enter to continue..
+
+leave 1
+Slot number 1 is free
+
+Please enter to continue..
+
+status
+Slot No.	Registration No.	Color
+Sorry, parking lot is empty.
+
+Please enter to continue..
+

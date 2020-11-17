@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dkatalis.parkingsystem.MainTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-11-17T17:46:31" hostname="LAPTOP-OS4ODPNH" time="0.019">
+  <properties/>
+  <testcase name="createParkingLot" classname="com.dkatalis.parkingsystem.MainTest" time="0.007"/>
+  <testcase name="alreadyExistParkingLot" classname="com.dkatalis.parkingsystem.MainTest" time="0.006"/>
+  <testcase name="testWhenVehicleAlreadyPicked" classname="com.dkatalis.parkingsystem.MainTest" time="0.001"/>
+  <testcase name="testParkingLotIsFull" classname="com.dkatalis.parkingsystem.MainTest" time="0.001"/>
+  <testcase name="testNearestSlotAllotment" classname="com.dkatalis.parkingsystem.MainTest" time="0.001"/>
+  <testcase name="testGetSlotsByRegNo" classname="com.dkatalis.parkingsystem.MainTest" time="0.0"/>
+  <testcase name="testParkingCapacity" classname="com.dkatalis.parkingsystem.MainTest" time="0.001"/>
+  <testcase name="leave" classname="com.dkatalis.parkingsystem.MainTest" time="0.0"/>
+  <testcase name="testWhenVehicleAlreadyPresent" classname="com.dkatalis.parkingsystem.MainTest" time="0.0"/>
+  <testcase name="testStatus" classname="com.dkatalis.parkingsystem.MainTest" time="0.0"/>
+  <testcase name="testEmptyParkingLot" classname="com.dkatalis.parkingsystem.MainTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

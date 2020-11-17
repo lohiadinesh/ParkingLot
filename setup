@@ -1,0 +1,4 @@
+#!/bin/sh
+cd ..
+cd ParkingSystem
+./gradlew clean test build jar
